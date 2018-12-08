@@ -1,5 +1,5 @@
 ## Notes
 
-[Link](go.md)
+[Go](go.md)
 
 
