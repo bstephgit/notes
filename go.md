@@ -118,4 +118,30 @@ copy( copy_slice, my_slice[1:] )
 
 
 ### Map:
+* initialization
+```
+var players = make(map[string]int)
+```
+* assignation
+```go
+players["cook"] = 32
+* delete:
+```go
+delete(player,"cook")
+```
 
+## Struct
+* declaration
+```go
+type Movie struct {
+	Name string
+	Rating float32
+}
+```
+*instanciation
+```go
+m := Movie {
+	Name: "Citizen Kane",
+	Rating: 10,
+}
+```
