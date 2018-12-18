@@ -1,5 +1,5 @@
 # GO reading notes
-
+see [https://github.com/shapeshed/golang-book-examples](https://github.com/shapeshed/golang-book-examples)
 variables not explicity initialized are by default
 
 *bool* is false by default if not assigned
