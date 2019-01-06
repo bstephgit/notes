@@ -9,9 +9,9 @@ see [https://github.com/shapeshed/golang-book-examples](https://github.com/shape
 * [Type info](#typeinfo)
 * [Variable declaration](#variabledeclaration)
 
-#### [for statement](#forstatement)
+#### [For statement](#forstatement)
 
-#### [defer](#defer)
+#### [Defer](#defer)
 
 #### [Array, Slice, Map](#arrayslicemap)
 * [Array](#array)
