@@ -43,11 +43,15 @@ strconv.ParseBool("true")
 ````
 
 #### Type info: 
+
 pkg reflect
+
 ```go
     reflect.TypeOf(var)
 ```
+
 ### Variable declaration:
+
 ```go
 var <nom-var> <type-var>
 ```
@@ -61,18 +65,21 @@ var (
     )
 ```
 * Lazy initialization: 
+
 ```go
 <var-name> := <value> 
 ```
+
 Rq: should only be used inside function
 
 
 * constants: 
+
 ```go
 const i int = 10"
 ```
 
-## <a id='for-statement'>for statement</a>
+## for statement {#for-statement}
 
 1) for index := 0; index; index++ { } : use classical index
 ```
@@ -84,7 +91,7 @@ for i,v:=range my_array{
 	fmt.Printf("[elem at index %d is \"%s\"]",i,v)
 }
 ```
-## <a id='defer'>defer</a>
+## defer {#defer}
 
 executed after function execution.
 ```go
@@ -95,9 +102,9 @@ func test_defer(){
 }
 ```
 
-## <a id='array-slice-map'>Array, Slice, Map</a>
+## Array, Slice, Map {#array-slice-map}
 
-### <a id='array'>Array</array>
+### Array {#array}
 
 length fixed at declaration
 var nomvar [nb_elem] type
