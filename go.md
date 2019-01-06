@@ -31,13 +31,17 @@ variables not explicity initialized are by default
 ```
 
 #### Type conversion
+
 pkg *strconv*
+
 * from string:
+
 ```go
 strconv.ParseBool("true")
 ```
    
 * from bool 
+
 ```go
     strconv.FormatBool(true) 
 ````
@@ -79,11 +83,9 @@ Rq: should only be used inside function
 const i int = 10"
 ```
 
-## for statement {#for-statement}
+## <a name='for-statement'>for statement</a>
 
 1) for index := 0; index; index++ { } : use classical index
-```
-```
 
 2) for index , value := range container { } : iterate through container with range keyword.
 ```go
@@ -91,7 +93,7 @@ for i,v:=range my_array{
 	fmt.Printf("[elem at index %d is \"%s\"]",i,v)
 }
 ```
-## defer {#defer}
+## <a name='defer'>defer</a>
 
 executed after function execution.
 ```go
@@ -102,9 +104,9 @@ func test_defer(){
 }
 ```
 
-## Array, Slice, Map {#array-slice-map}
+## <a name='array-slice-map'>Array, Slice, Map</a>
 
-### Array {#array}
+### <a name='array'>Array</a>
 
 length fixed at declaration
 var nomvar [nb_elem] type
@@ -117,7 +119,7 @@ var beatles[4] string
 numbers := []{1, 2, 3, 4}
 ```
 
-### <a id='slice'>Slice</a>
+### <a name='slice'>Slice</a>
 
 Slices are not fixed size array.
 
@@ -151,7 +153,7 @@ copy( copy_slice, my_slice[1:] )
 ```
 
 
-### <a id='map'>Map</a>
+### <a name='map'>Map</a>
 
 * initialization
 
@@ -170,9 +172,10 @@ players["cook"] = 32
 delete(player,"cook")
 ```
 
-## Struct
+## <a name='struct'>Struct</a>
 
 * declaration
+
 ```go
 type Movie struct {
 	Name string
@@ -180,6 +183,7 @@ type Movie struct {
 }
 ```
 *instanciation
+
 ```go
 m := Movie {
 	Name: "Citizen Kane",
