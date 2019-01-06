@@ -188,7 +188,7 @@ players["cook"] = 32
 delete(player,"cook")
 ```
 
-## <a name='structtype'>[Struct type](#index)</a>
+## <a name='structtype'>[Struct](#index)</a>
 
 * declaration (Remark no comma for field separation)
 
@@ -279,10 +279,71 @@ func main() {
 		Name: "Lemonade",
 		Ice: true,
 	}
-	if a == b {
+	if a == b { // is True
 		fmt.Println( "True" )
 	} else {
 		fmt.Println( "False" )
 	}
 
 ``` 
+
+* Copying 
+
+ 1. Value
+
+```go
+a := Drink {
+ 	Name: "Lemonade",
+	Ice: true,
+}
+
+b := a
+
+b.Ice = false // b not equal to a
+
+fmt.Printf("%+v , %+v\n", a, b) 
+
+```
+	
+ 2. Reference
+
+```go
+a := Drink {
+ 	Name: "Lemonade",
+	Ice: true,
+}
+
+b := &a
+
+b.Ice = false // b still equal to a
+
+fmt.Printf("%+v , %+v\n", a, *b)
+```
+* Public and Private values
+
+Public means that it is exported from function, method or package.
+All members beginning with uppercase are public else private.
+
+```go 
+type MyStruct struct {
+	Field string // Public
+	otherField // Private: not available if imported in other method or package
+}
+```
+* Checking type
+
+With package **reflect**
+
+```go 
+import "fmt"
+import "reflect"
+
+a := Drink {
+ 	Name: "Lemonade",
+	Ice: true,
+}
+
+fmt.Printf("%s\n", reflect.TypeOf(a)) // prints Drink
+```
+
+
