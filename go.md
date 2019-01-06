@@ -28,7 +28,7 @@ variables not explicity initialized are by default
 *bool* is false by default if not assigned
 *int* is zero
 
-### <a name='variabletype'>Variable type
+### <a name='variabletype'>[Variable](#index) type
 
 *reflect* pkg:
 ```go
@@ -109,7 +109,7 @@ func test_defer(){
 }
 ```
 
-## <a name='arrayslicemap'>Array, Slice, Map</a>
+## <a name='arrayslicemap'>[Array, Slice, Map](#index)</a>
 
 ### <a name='array'>Array</a>
 
@@ -177,7 +177,7 @@ players["cook"] = 32
 delete(player,"cook")
 ```
 
-## <a name='structtype'>Struct type</a>
+## <a name='structtype'>[Struct type](#index)</a>
 
 * declaration
 
