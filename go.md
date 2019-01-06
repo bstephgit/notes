@@ -16,21 +16,21 @@ see [https://github.com/shapeshed/golang-book-examples](https://github.com/shape
 ### [Struct](#struct)
 
 
-# Variables
+## Variables
 
 variables not explicity initialized are by default
 
 *bool* is false by default if not assigned
 *int* is zero
 
-## Variable type: 
+### Variable type
 
 *reflect* pkg:
 ```go
     reflect.TypeOf(var)
 ```
 
-### Type conversion
+#### Type conversion
 pkg *strconv*
 * from string:
 ```go
@@ -72,7 +72,7 @@ Rq: should only be used inside function
 const i int = 10"
 ```
 
-# for statement
+## <a href='for-statement'>for statement</a>
 
 1) for index := 0; index; index++ { } : use classical index
 ```
@@ -84,7 +84,7 @@ for i,v:=range my_array{
 	fmt.Printf("[elem at index %d is \"%s\"]",i,v)
 }
 ```
-# defer
+## <a href='defer'>defer</a>
 
 executed after function execution.
 ```go
@@ -95,60 +95,76 @@ func test_defer(){
 }
 ```
 
-# Array, Slice, Map
+## <a href='array-slice-map>Array, Slice, Map</a>
 
-## Array
+### <a href='array'>Array</array>
+
 length fixed at declaration
 var nomvar [nb_elem] type
 
 ex:
+
 ```go
 var beatles[4] string
 //initilaized in declaration
 numbers := []{1, 2, 3, 4}
 ```
 
-## Slice
+### <a href='slice'>Slice</a>
+
 Slices are not fixed size array.
+
 ```go
 var my_slice = make([] type_var, size)
 ```
 * access element: 
+
 ```go
 my_slice[index]
 ```
 * append element(s): 
+
 ```go
 my_slice := append( my_slice, elem1[, elem2, etc...])
 ```
 * deleting elem: 
+
 ```go
 my_slice := append(my_slice[:2], my_slice[2+1:]...)
 ```
 * copying: 
+
 ```go
 copy( copy_slice, my_slice ) 
 ```
 or to copy sub range:
+
 ```go
 copy( copy_slice, my_slice[1:] ) 
 ```
 
 
-## Map
+### <a href='map'>Map</a>
+
 * initialization
+
 ```
 var players = make(map[string]int)
 ```
 * assignation
+
 ```go
 players["cook"] = 32
+```
+
 * delete:
+
 ```go
 delete(player,"cook")
 ```
 
-# Struct
+## Struct
+
 * declaration
 ```go
 type Movie struct {
