@@ -188,11 +188,33 @@ type Movie struct {
 }
 ```
 
-* instanciation
+* instanciation (short variable assignment)
 
 ```go
 m := Movie {
 	Name: "Citizen Kane",
 	Rating: 10,
 }
+```
+or shorter
+
+```go
+m := Movie { "Citizen Kane", 10 }
+or using dot notation
+```
+
+or with **var** keyword
+
+```go
+var m Movie
+m.Name = "Citizen Kane",
+m.Rating = 10,
+```
+
+or with **new** keyword
+
+```go
+m := new(Movie)
+m.Name = "Metropolis"
+m.Rate = 0.99
 ```
