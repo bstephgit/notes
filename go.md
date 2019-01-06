@@ -6,10 +6,10 @@ see [https://github.com/shapeshed/golang-book-examples](https://github.com/shape
 * [Variable type](#variable-type)
 * [Type conversion](#type-conversion)
 * [Type info](#type-info)
-* [Variable declaration](#variable-declaration)
-#### [for statement](#for-statement)
+* [Variable declaration](#variabledeclaration)
+#### [for statement](#forstatement)
 #### [defer](#defer)
-#### [Array, Slice, Map](#array-slice-map)
+#### [Array, Slice, Map](#arrayslicemap)
 * [Array](#array)
 * [Slice](#slice)
 * [Map](#map)
@@ -54,7 +54,7 @@ pkg reflect
     reflect.TypeOf(var)
 ```
 
-### Variable declaration:
+### <a name='variabledeclaration'>Variable declaration</a>
 
 ```go
 var <nom-var> <type-var>
@@ -83,7 +83,7 @@ Rq: should only be used inside function
 const i int = 10"
 ```
 
-## <a name='for-statement'>for statement</a>
+## <a name='forstatement'>for statement</a>
 
 1) for index := 0; index; index++ { } : use classical index
 
@@ -104,7 +104,7 @@ func test_defer(){
 }
 ```
 
-## <a name='array-slice-map'>Array, Slice, Map</a>
+## <a name='arrayslicemap'>Array, Slice, Map</a>
 
 ### <a name='array'>Array</a>
 
