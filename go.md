@@ -1,19 +1,19 @@
 # GO reading notes
 see [https://github.com/shapeshed/golang-book-examples](https://github.com/shapeshed/golang-book-examples)
 
-## Index
-### [Variables](#variables)
-#### [Variable type](#variable-type)
-#### [Type conversion](#type-conversion)
-#### [Type info](#type-info)
-#### [Variable declaration](#variable-declaration)
-### [for statement](#for-statement)
-### [defer](#defer)
-### [Array, Slice, Map](#array-slice-map)
-#### [Array](#array)
-#### [Slice](#slice)
-#### [Map](#map)
-### [Struct](#struct)
+### Index
+#### [Variables](#variables)
+* [Variable type](#variable-type)
+* [Type conversion](#type-conversion)
+* [Type info](#type-info)
+* [Variable declaration](#variable-declaration)
+#### [for statement](#for-statement)
+#### [defer](#defer)
+#### [Array, Slice, Map](#array-slice-map)
+* [Array](#array)
+* [Slice](#slice)
+* [Map](#map)
+#### [Struct](#struct)
 
 
 ## Variables
@@ -104,7 +104,7 @@ func test_defer(){
 }
 ```
 
-## <a name='array-slice-map'>Array, Slice, Map</a>
+## Array, Slice, Map
 
 ### <a name='array'>Array</a>
 
