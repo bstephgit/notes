@@ -1,6 +1,23 @@
 # GO reading notes
 see [https://github.com/shapeshed/golang-book-examples](https://github.com/shapeshed/golang-book-examples)
 
+# Index
+## [Variables](#variables)
+### [Variable type](#variable-type)
+### [Type conversion](#type-conversion)
+### [Type info](#type-info)
+### [Variable declaration](#variable-declaration)
+## [for statement](#for-statement)
+## [defer](#defer)
+## [Array, Slice, Map](#array-slice-map)
+### [Array](#array)
+### [Slice](#slice)
+### [Map](#map)
+## [Struct](struct)
+
+
+# Variables
+
 variables not explicity initialized are by default
 
 *bool* is false by default if not assigned
@@ -30,7 +47,7 @@ pkg reflect
 ```go
     reflect.TypeOf(var)
 ```
-## variable declaration:
+### Variable declaration:
 ```go
 var <nom-var> <type-var>
 ```
@@ -55,7 +72,7 @@ Rq: should only be used inside function
 const i int = 10"
 ```
 
-## for statement:
+# for statement
 
 1) for index := 0; index; index++ { } : use classical index
 ```
@@ -67,7 +84,7 @@ for i,v:=range my_array{
 	fmt.Printf("[elem at index %d is \"%s\"]",i,v)
 }
 ```
-## defer
+# defer
 
 executed after function execution.
 ```go
@@ -78,9 +95,9 @@ func test_defer(){
 }
 ```
 
-## Array, Slice, Map
+# Array, Slice, Map
 
-### Array:
+## Array:
 length fixed at declaration
 var nomvar [nb_elem] type
 
@@ -91,7 +108,7 @@ var beatles[4] string
 numbers := []{1, 2, 3, 4}
 ```
 
-### Slice: 
+## Slice: 
 Slices are not fixed size array.
 ```go
 var my_slice = make([] type_var, size)
@@ -118,7 +135,7 @@ copy( copy_slice, my_slice[1:] )
 ```
 
 
-### Map:
+## Map:
 * initialization
 ```
 var players = make(map[string]int)
@@ -131,7 +148,7 @@ players["cook"] = 32
 delete(player,"cook")
 ```
 
-## Struct
+# Struct
 * declaration
 ```go
 type Movie struct {
