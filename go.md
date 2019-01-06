@@ -3,9 +3,9 @@ see [https://github.com/shapeshed/golang-book-examples](https://github.com/shape
 
 ### Index
 #### [Variables](#variables)
-* [Variable type](#variable-type)
-* [Type conversion](#type-conversion)
-* [Type info](#type-info)
+* [Variable type](#variabletype)
+* [Type conversion](#typeconversion)
+* [Type info](#typeinfo)
 * [Variable declaration](#variabledeclaration)
 #### [for statement](#forstatement)
 #### [defer](#defer)
@@ -13,24 +13,24 @@ see [https://github.com/shapeshed/golang-book-examples](https://github.com/shape
 * [Array](#array)
 * [Slice](#slice)
 * [Map](#map)
-#### [Struct](#struct)
+#### [Struct](#structtype)
 
 
-## Variables
+## <a name='variables'>Variables</a>
 
 variables not explicity initialized are by default
 
 *bool* is false by default if not assigned
 *int* is zero
 
-### Variable type
+### <a name='variabletype'>Variable type
 
 *reflect* pkg:
 ```go
     reflect.TypeOf(var)
 ```
 
-#### Type conversion
+#### <a name='typeconversion'>Type conversion</a>
 
 pkg *strconv*
 
@@ -46,7 +46,7 @@ strconv.ParseBool("true")
     strconv.FormatBool(true) 
 ````
 
-#### Type info: 
+#### <a name='typeinfo'>Type info</a>
 
 pkg reflect
 
@@ -172,7 +172,7 @@ players["cook"] = 32
 delete(player,"cook")
 ```
 
-## <a name='struct'>Struct</a>
+## <a name='structtype'>Struct type</a>
 
 * declaration
 
@@ -182,7 +182,8 @@ type Movie struct {
 	Rating float32
 }
 ```
-*instanciation
+
+* instanciation
 
 ```go
 m := Movie {
