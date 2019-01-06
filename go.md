@@ -1,19 +1,19 @@
 # GO reading notes
 see [https://github.com/shapeshed/golang-book-examples](https://github.com/shapeshed/golang-book-examples)
 
-# Index
-## [Variables](#variables)
-### [Variable type](#variable-type)
-### [Type conversion](#type-conversion)
-### [Type info](#type-info)
-### [Variable declaration](#variable-declaration)
-## [for statement](#for-statement)
-## [defer](#defer)
-## [Array, Slice, Map](#array-slice-map)
-### [Array](#array)
-### [Slice](#slice)
-### [Map](#map)
-## [Struct](struct)
+## Index
+### [Variables](#variables)
+#### [Variable type](#variable-type)
+#### [Type conversion](#type-conversion)
+#### [Type info](#type-info)
+#### [Variable declaration](#variable-declaration)
+### [for statement](#for-statement)
+### [defer](#defer)
+### [Array, Slice, Map](#array-slice-map)
+#### [Array](#array)
+#### [Slice](#slice)
+#### [Map](#map)
+### [Struct](#struct)
 
 
 # Variables
@@ -97,7 +97,7 @@ func test_defer(){
 
 # Array, Slice, Map
 
-## Array:
+## Array
 length fixed at declaration
 var nomvar [nb_elem] type
 
@@ -108,7 +108,7 @@ var beatles[4] string
 numbers := []{1, 2, 3, 4}
 ```
 
-## Slice: 
+## Slice
 Slices are not fixed size array.
 ```go
 var my_slice = make([] type_var, size)
@@ -135,7 +135,7 @@ copy( copy_slice, my_slice[1:] )
 ```
 
 
-## Map:
+## Map
 * initialization
 ```
 var players = make(map[string]int)
