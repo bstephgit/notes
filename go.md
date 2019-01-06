@@ -20,13 +20,24 @@ see [https://github.com/shapeshed/golang-book-examples](https://github.com/shape
 
 #### [Struct](#structtype)
 
+---
 
 ## <a name='variables'>Variables</a>
 
 variables not explicity initialized are by default
 
-*bool* is false by default if not assigned
-*int* is zero
+| Type | Value |
+|-----:|-----:|
+| *bool* | false |
+| *Integer* | 0 |
+| *Float* | 0.0 |
+| *String* | "" |
+| *Pointer* | nil |
+| *Function* | nil |
+| *Interface* | nil |
+| *Slice* | nil |
+| *Channel* | nil |
+| *Maps* | nil |
 
 ### <a name='variabletype'>[Variable](#index) type
 
@@ -179,7 +190,7 @@ delete(player,"cook")
 
 ## <a name='structtype'>[Struct type](#index)</a>
 
-* declaration
+* declaration (Remark no comma for field separation)
 
 ```go
 type Movie struct {
@@ -191,30 +202,87 @@ type Movie struct {
 * instanciation (short variable assignment)
 
 ```go
+//one line 
+m := Movie { Name: "Citizen Kane", Rating: 10 }
+
+//multiple line (last line must have comma ',')
 m := Movie {
 	Name: "Citizen Kane",
 	Rating: 10,
 }
 ```
+
 or shorter
 
 ```go
 m := Movie { "Citizen Kane", 10 }
-or using dot notation
 ```
 
-or with **var** keyword
+or using dot notation with **var** keyword
 
 ```go
 var m Movie
-m.Name = "Citizen Kane",
-m.Rating = 10,
+m.Name = "Citizen Kane"
+m.Rating = 10
 ```
 
-or with **new** keyword
+or with **new** keyword then dot notation assignment
 
 ```go
 m := new(Movie)
 m.Name = "Metropolis"
 m.Rate = 0.99
 ```
+* Nested struct(s)
+
+```go
+//here Struct1 nests Struct2
+type Struct1 struct {
+	Field1 string,
+	Field2 Struct2
+}
+
+type Struct2 struct {
+	Field1 int,
+	Field2 string
+}
+
+//instance Struct1 type
+s := Struct1 {
+	Field1: "a string",
+	Field2: Struct2 {
+		Field1: 10,
+		Field2: "nested string"
+	}
+}
+
+```
+
+* Comparison
+
+use *==* or inequality *!=*
+
+```go
+
+type Drink struct {
+	Name string
+	Ice bool
+}
+
+func main() {
+	a := Drink {
+		Name: "Lemonade",
+		Ice: true,
+	}
+	
+	b := Drink {
+		Name: "Lemonade",
+		Ice: true,
+	}
+	if a == b {
+		fmt.Println( "True" )
+	} else {
+		fmt.Println( "False" )
+	}
+
+``` 
