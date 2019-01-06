@@ -72,7 +72,7 @@ Rq: should only be used inside function
 const i int = 10"
 ```
 
-## <a href='#for-statement'>for statement</a>
+## <a id='for-statement'>for statement</a>
 
 1) for index := 0; index; index++ { } : use classical index
 ```
@@ -84,7 +84,7 @@ for i,v:=range my_array{
 	fmt.Printf("[elem at index %d is \"%s\"]",i,v)
 }
 ```
-## <a href='#defer'>defer</a>
+## <a id='defer'>defer</a>
 
 executed after function execution.
 ```go
@@ -95,9 +95,9 @@ func test_defer(){
 }
 ```
 
-## <a href='#array-slice-map'>Array, Slice, Map</a>
+## <a id='array-slice-map'>Array, Slice, Map</a>
 
-### <a href='#array'>Array</array>
+### <a id='array'>Array</array>
 
 length fixed at declaration
 var nomvar [nb_elem] type
@@ -110,7 +110,7 @@ var beatles[4] string
 numbers := []{1, 2, 3, 4}
 ```
 
-### <a href='#slice'>Slice</a>
+### <a id='slice'>Slice</a>
 
 Slices are not fixed size array.
 
@@ -144,7 +144,7 @@ copy( copy_slice, my_slice[1:] )
 ```
 
 
-### <a href='#map'>Map</a>
+### <a id='map'>Map</a>
 
 * initialization
 
