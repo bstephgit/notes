@@ -24,6 +24,8 @@ see [https://github.com/shapeshed/golang-book-examples](https://github.com/shape
 * [Methods](#methods)
 * [Interfaces](#interfaces)
 
+#### [Strings](#stringsxx)
+
 ---
 
 ## <a name='variables'>Variables</a>
@@ -416,3 +418,4 @@ r := T850 { Name: "Terminator" }
 Boot(&r)
 
 ```
+## <a name='stringsxx'>[Strings](#index)</a>
