@@ -113,7 +113,7 @@ for i,v:=range my_array{
 	fmt.Printf("[elem at index %d is \"%s\"]",i,v)
 }
 ```
-## <a name='deferxx'>defer</a>
+## <a name='deferxx'>[defer](#index)</a>
 
 executed after function execution.
 ```go
