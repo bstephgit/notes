@@ -353,7 +353,7 @@ fmt.Printf("%s\n", reflect.TypeOf(a)) // prints Drink
 
 ## <a name='methodsinterfaces'>[Methods and Interfaces](#index)</a>
 
-### <a name='methods'>Methods</a>
+### <a name='methods'>[Methods](#methods)</a>
 
 Methods are functions with type definition
 
@@ -374,7 +374,7 @@ func (var_name Type) {  //var_name is a copy of the original parameter
 ```
 A method set is a list of methods in a file referring to a particular type.
 
-### <a name='interfaces'>Interfaces</a>
+### <a name='interfaces'>[Interfaces](#index)</a>
 
 An interface specifies a method set with no implementation.
 
