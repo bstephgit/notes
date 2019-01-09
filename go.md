@@ -353,7 +353,7 @@ fmt.Printf("%s\n", reflect.TypeOf(a)) // prints Drink
 
 ## <a name='methodsinterfaces'>[Methods and Interfaces](#index)</a>
 
-### <a name='methods'>[Methods](#methods)</a>
+### <a name='methods'>[Methods](#index)</a>
 
 Methods are functions with type definition
 
