@@ -412,7 +412,7 @@ func Boot( r Robot ) error {
 	return r.PowerOn()
 }
 
-r := T850
+r := T850 { Name: "Terminator" }
 Boot(&r)
 
 ```
