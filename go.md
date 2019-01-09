@@ -11,7 +11,7 @@ see [https://github.com/shapeshed/golang-book-examples](https://github.com/shape
 
 #### [For statement](#forstatement)
 
-#### [Defer](#defer)
+#### [Defer](#deferxx)
 
 #### [Array, Slice, Map](#arrayslicemap)
 * [Array](#array)
@@ -113,7 +113,7 @@ for i,v:=range my_array{
 	fmt.Printf("[elem at index %d is \"%s\"]",i,v)
 }
 ```
-## <a name='defer'>defer</a>
+## <a name='deferxx'>defer</a>
 
 executed after function execution.
 ```go
