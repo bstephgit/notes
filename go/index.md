@@ -9,19 +9,19 @@ see [https://github.com/shapeshed/golang-book-examples](https://github.com/shape
 * [Type info](variables.md#typeinfo)
 * [Variable declaration](variables.md#variabledeclaration)
 
-#### [For statement](for.md)
+#### [For statement](fordefer.md#for)
 
-#### [Defer](defer.md)
+#### [Defer](fordefer.md#defer)
 
 #### [Array, Slice, Map](arrayslicemap.md)
-* [Array](#array)
-* [Slice](#slice)
-* [Map](#map)
+* [Array](arrayslicemap.md#array)
+* [Slice](arrayslicemap.md#slice)
+* [Map](arrayslicemap.md#map)
 
 #### [Struct](structtype.md)
 
 #### [Methods and Interfaces](methodsinterfaces.md)
-* [Methods](#methods)
-* [Interfaces](#interfaces)
+* [Methods](methodsinterfaces.md#methods)
+* [Interfaces](methodsinterfaces.md#interfaces)
 
 #### [Strings](strings.md)
