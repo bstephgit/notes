@@ -1,6 +1,6 @@
 ## <a name='arrayslicemap'>[Array, Slice, Map](index.md)</a>
 
-### <a name='array'>[Array](index.md#)</a>
+### <a name='array'>[Array](index.md#array)</a>
 
 length fixed at declaration
 var nomvar [nb_elem] type
@@ -13,7 +13,7 @@ var beatles[4] string
 numbers := []{1, 2, 3, 4}
 ```
 
-### <a name='slice'>Slice</a>
+### <a name='slice'>[Slice](index.md#slice)</a>
 
 Slices are not fixed size array.
 
@@ -47,7 +47,7 @@ copy( copy_slice, my_slice[1:] )
 ```
 
 
-### <a name='map'>Map</a>
+### <a name='map'>[Map](index.md#map)</a>
 
 * initialization
 
