@@ -4,19 +4,19 @@ see [https://github.com/shapeshed/golang-book-examples](https://github.com/shape
 ### Index
 
 #### [Variables](variables.md)
-* [Variable type](variables.md#variabletype)
-* [Type conversion](variables.md#typeconversion)
-* [Type info](variables.md#typeinfo)
-* [Variable declaration](variables.md#variabledeclaration)
+* <a name="type">[Variable type](variables.md#variabletype)</a>
+* <a name="conv">[Type conversion](variables.md#typeconversion)</a>
+* <a name="info">[Type info](variables.md#typeinfo)</a>
+* <a name="decl">[Variable declaration](variables.md#variabledeclaration)</a>
 
-#### [For statement](fordefer.md#for)
+#### <a name="for">[For statement](fordefer.md#for)</a>
 
-#### [Defer](fordefer.md#defer)
+#### <a name="defer">[Defer](fordefer.md#defer)</a>
 
-#### [Array, Slice, Map](arrayslicemap.md)
-* [Array](arrayslicemap.md#array)
-* [Slice](arrayslicemap.md#slice)
-* [Map](arrayslicemap.md#map)
+#### <a name="arrayslicemap">[Array, Slice, Map](arrayslicemap.md)</a>
+* <a name="array">[Array](arrayslicemap.md#array)</array>
+* <a name="slice">[Slice](arrayslicemap.md#slice)</slice>
+* <a name="map">[Map](arrayslicemap.md#map)</a>
 
 #### [Struct](structtype.md)
 
