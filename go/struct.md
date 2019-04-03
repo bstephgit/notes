@@ -1,4 +1,4 @@
-## <a name='struct'>[Struct](index.md)</a>
+## <a name='struct'>[Struct](index.md#struct)</a>
 
 * <a name="decl">[declaration](index.md#struct_decl)</a> (Remark no comma for field separation)
 
