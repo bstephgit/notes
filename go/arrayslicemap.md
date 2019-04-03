@@ -1,4 +1,4 @@
-## <a name='arrayslicemap'>[Array, Slice, Map](index.md)</a>
+## <a name='arrayslicemap'>[Array, Slice, Map](index.md#arrayslicemap)</a>
 
 ### <a name='array'>[Array](index.md#array)</a>
 
