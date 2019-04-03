@@ -1,5 +1,5 @@
 
-## <a name='variables'>Variables</a>
+## <a name='index.md#variables'>Variables</a>
 
 variables not explicity initialized are by default
 
