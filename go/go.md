@@ -4,10 +4,10 @@ see [https://github.com/shapeshed/golang-book-examples](https://github.com/shape
 ### Index
 
 #### [Variables](variables.md)
-* [Variable type](#variabletype)
-* [Type conversion](#typeconversion)
-* [Type info](#typeinfo)
-* [Variable declaration](#variabledeclaration)
+* [Variable type](variables.md#variabletype)
+* [Type conversion](variables.md#typeconversion)
+* [Type info](variables.md#typeinfo)
+* [Variable declaration](variables.md#variabledeclaration)
 
 #### [For statement](for.md)
 
