@@ -1,4 +1,4 @@
-## <a name='forstatement'>for statement</a>
+## [for statement](index.md#for)
 
 1) for index := 0; index; index++ { } : use classical index
 
@@ -8,7 +8,7 @@ for i,v:=range my_array{
 	fmt.Printf("[elem at index %d is \"%s\"]",i,v)
 }
 ```
-## <a name='deferxx'>[defer](#index)</a>
+## [defer](index.md#defer)</a>
 
 executed after function execution.
 ```go
