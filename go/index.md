@@ -18,7 +18,14 @@ see [https://github.com/shapeshed/golang-book-examples](https://github.com/shape
 * <a name="slice">[Slice](arrayslicemap.md#slice)</slice>
 * <a name="map">[Map](arrayslicemap.md#map)</a>
 
-#### [Struct](structtype.md)
+#### <a name="struct">[Struct](struct.md)</a>
+* <a name="struct_decl">[Declaration](struct.md#decl)</a>
+* <a name="struct_inst">[Instanciation](struct.md#inst)</a>
+* <a name="struct_nested">[Nested struct(s)](struct.md#nested)</a>
+* <a name="struct_comp">[Comparison](struct.md#comp)</a>
+* <a name="struct_copy">[Copy](struct.md#copy)</a>
+* <a name="check">[Checking type](struct.md#check)</a>
+
 
 #### [Methods and Interfaces](methodsinterfaces.md)
 * [Methods](methodsinterfaces.md#methods)
