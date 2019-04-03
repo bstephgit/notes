@@ -3,25 +3,25 @@ see [https://github.com/shapeshed/golang-book-examples](https://github.com/shape
 
 ### Index
 
-#### [Variables](#variables)
+#### [Variables](variables.md)
 * [Variable type](#variabletype)
 * [Type conversion](#typeconversion)
 * [Type info](#typeinfo)
 * [Variable declaration](#variabledeclaration)
 
-#### [For statement](#forstatement)
+#### [For statement](for.md)
 
-#### [Defer](#deferxx)
+#### [Defer](defer.md)
 
-#### [Array, Slice, Map](#arrayslicemap)
+#### [Array, Slice, Map](arrayslicemap.md)
 * [Array](#array)
 * [Slice](#slice)
 * [Map](#map)
 
-#### [Struct](#structtype)
+#### [Struct](structtype.md)
 
-#### [Methods and Interfaces](#methodsinterfaces)
+#### [Methods and Interfaces](methodsinterfaces.md)
 * [Methods](#methods)
 * [Interfaces](#interfaces)
 
-#### [Strings](#stringsxx)
+#### [Strings](strings.md)
