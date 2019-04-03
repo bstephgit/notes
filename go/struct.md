@@ -141,7 +141,7 @@ type MyStruct struct {
 	otherField // Private: not available if imported in other method or package
 }
 ```
-* <a name="check">[Checking type](index.md#struct_check)</a>
+* <a name="check">[Checking type](index.md#check)</a>
 
 With package **reflect**
 
