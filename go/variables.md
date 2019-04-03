@@ -1,5 +1,5 @@
 
-## (Variables)[index.md#variables]
+## [Variables](index.md#variables)
 
 variables not explicity initialized are by default
 
