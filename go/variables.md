@@ -16,14 +16,14 @@ variables not explicity initialized are by default
 | *Channel* | nil |
 | *Maps* | nil |
 
-### <a name='variabletype'>[Variable](#index) type
+### [Variable type](index.md#variabletype)
 
 *reflect* pkg:
 ```go
     reflect.TypeOf(var)
 ```
 
-#### <a name='typeconversion'>Type conversion</a>
+#### [Type conversion](index.md#typeconversion)
 
 pkg *strconv*
 
@@ -39,7 +39,7 @@ strconv.ParseBool("true")
     strconv.FormatBool(true) 
 ````
 
-#### <a name='typeinfo'>Type info</a>
+#### [Type info](index.md#typeinfo)
 
 pkg reflect
 
@@ -47,7 +47,7 @@ pkg reflect
     reflect.TypeOf(var)
 ```
 
-### <a name='variabledeclaration'>Variable declaration</a>
+### [Variable declaration](index.md#variabledeclaration)
 
 ```go
 var <nom-var> <type-var>
