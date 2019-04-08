@@ -1,5 +1,5 @@
 ## Notes
 
-[Go](go.md)
+[Go](go/index.md)
 
 
