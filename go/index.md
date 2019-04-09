@@ -27,11 +27,11 @@ see [https://github.com/shapeshed/golang-book-examples](https://github.com/shape
 * <a name="check">[Checking type](struct.md#check)</a>
 
 
-#### [Methods and Interfaces](methodsinterfaces.md)
-* [Methods](methodsinterfaces.md#methods)
-* [Interfaces](methodsinterfaces.md#interfaces)
+#### <a name="mi">[Methods and Interfaces](methodsinterfaces.md)</a>
+* <a name="mi_methods">[Methods](methodsinterfaces.md#methods)</a>
+* <a name="mi_interfaces">[Interfaces](methodsinterfaces.md#interfaces)</a>
 
-#### [Strings](strings.md)
+#### <a name="strings">[Strings](strings.md)</a>
 * <a name="strings_create">[Create](strings.md)</a>
 * <a name="strings_runes">[Runes literals](strings.md#runes)</a>
 * <a name="strings_concat">[Concatenating strings](strings.md#concat)</a>
