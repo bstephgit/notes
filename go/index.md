@@ -36,7 +36,6 @@ see [https://github.com/shapeshed/golang-book-examples](https://github.com/shape
 * <a name="strings_runes">[Runes literals](strings.md#runes)</a>
 * <a name="strings_concat">[Concatenating strings](strings.md#concat)</a>
 * <a name="strings_types">[Concatenation and types](strings.md#types)</a>
-* <a name="strings_buffer">[Create](strings.md#buffer)</a>
-* <a name="strings_encoding">[Create](strings.md#encoding)</a>
-* <a name="strings_pkg">[Create](strings.md#pkg)</a>
-* <a name="strings_pkg">[Create](strings.md#pkg)</a>
+* <a name="strings_buffer">[Use a buffer for concatenation](strings.md#buffer)</a>
+* <a name="strings_encoding">[Go character encoding](strings.md#encoding)</a>
+* <a name="strings_pkg">[Strings package](strings.md#pkg)</a>
