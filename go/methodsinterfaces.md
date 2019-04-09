@@ -1,6 +1,6 @@
-## <a name='methodsinterfaces'>[Methods and Interfaces](#index)</a>
+## <a name='methodsinterfaces'>[Methods and Interfaces](index.md#mi)</a>
 
-### <a name='methods'>[Methods](#index)</a>
+### <a name='methods'>[Methods](index.md#mi_methods)</a>
 
 Methods are functions with type definition
 
@@ -21,7 +21,7 @@ func (var_name Type) {  //var_name is a copy of the original parameter
 ```
 A method set is a list of methods in a file referring to a particular type.
 
-### <a name='interfaces'>[Interfaces](#index)</a>
+### <a name='interfaces'>[Interfaces](index.md#mi_interfaces)</a>
 
 An interface specifies a method set with no implementation.
 
