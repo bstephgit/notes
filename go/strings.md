@@ -42,7 +42,6 @@ var breakfast string = i + s // compilation error
 ```
 rather do
 ```go
-```go
 var i int = 1
 var s string = "egg"
 intToString := strconv.Itoa(i)
