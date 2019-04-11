@@ -65,3 +65,10 @@ players["cook"] = 32
 ```go
 delete(player,"cook")
 ```
+
+* iteration
+```go
+for k, v := range mymap { 
+    fmt.Printf("key[%s] value[%s]\n", k, v)
+}
+```
