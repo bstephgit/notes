@@ -28,12 +28,12 @@ my_slice[index]
 * append element(s): 
 
 ```go
-my_slice := append( my_slice, elem1[, elem2, etc...])
+my_slice = append( my_slice, elem1[, elem2, etc...])
 ```
 * deleting elem: 
 
 ```go
-my_slice := append(my_slice[:2], my_slice[2+1:]...)
+my_slice = append(my_slice[:2], my_slice[2+1:]...)
 ```
 * copying: 
 
